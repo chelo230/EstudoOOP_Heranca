@@ -31,4 +31,11 @@ fun main () {
     for (valor in values) {
         println(valor)
     }
+
+//    println("------- 5 - Forma IntArrayOf --------")
+//    val values = intArrayOf(2, 3, 6, 1, 10, 8)
+//     values.forEach {
+//        println(it)
+//    }
+
 }

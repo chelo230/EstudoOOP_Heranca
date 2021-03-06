@@ -15,5 +15,11 @@ fun main() {
         salarios[index] = salario * 1.1
     }
     salarios.forEach { println(it) }
+
+    println("---------------- 3 - Forma Double Array ordenado -----------")
+    val salarios2 = doubleArrayOf(1500.0, 1200.0, 5000.0)
+    salarios2.sort()
+    salarios2.forEach { println(it) }
+
 }
 

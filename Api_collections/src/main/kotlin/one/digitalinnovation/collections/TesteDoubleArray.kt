@@ -10,8 +10,10 @@ fun main() {
     salarios.forEach { println(it) }
 
     println("---------------- 2 - Forma Double Array  -----------")
-    salarios.forEachIndexed { index, salario ->
-        salarios[index] = salarios * 1.1
+    salarios.forEachIndexed { index: Int, salario: Double ->
+
+        salarios[index] = salario * 1.1
     }
     salarios.forEach { println(it) }
 }
+

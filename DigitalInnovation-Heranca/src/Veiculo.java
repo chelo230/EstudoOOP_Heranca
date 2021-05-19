@@ -17,4 +17,9 @@ public class Veiculo {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
+    public void acelera(){
+        System.out.println("Acelerando fundo...");
+    }
+
 }
